@@ -38,6 +38,8 @@
 .menu li a {
     text-decoration: none;
     color: #15CDCB;
+    font-size: 15px;
+    
   
 }
 
@@ -123,8 +125,10 @@ div.pie {
     font-family: 'Dancing Script', cursive;
     font-family: 'Mochiy Pop One', sans-serif;
     color:#15CDCB;
+
     
 }
+
 .seguinos{
     display: flex;
     justify-content: center;
