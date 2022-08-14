@@ -1,0 +1,248 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+
+.menu {
+
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    padding: 100px;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+     "inicio sobremi"
+     "contacto destinos";
+
+}
+.menu li {
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+    padding: 40px;
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 140px;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color: #15CDCB;
+  
+}
+
+
+
+.inicio {
+    grid-area: inicio;
+
+
+   
+}
+.sobremi {
+    grid-area: sobremi;
+   
+
+  
+}
+.contacto {
+    grid-area: contacto;
+    
+
+    
+}
+.destinos{
+    grid-area: destinos;
+    
+    
+}
+
+
+
+.banner {
+    background-image: url(../images/palmera.jpeg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    flex-direction: row;
+}
+
+
+
+div.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px #FFD1C8;
+    float: left;
+    width: 350px;
+}
+
+
+div.galeria img {
+    width: 100%;
+    height: 200px;
+}
+
+div.galeria:hover {
+    border: 1px solid #15CDCB;
+    transform: rotate(-3deg);
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px #FFD1C8;
+    padding: 10px;
+}
+.margen{
+    padding: 4px;
+}
+.center {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color:#15CDCB;
+    
+}
+.seguinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+}
+
+.redes-sociales-footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background:  #FFD1C8;
+    padding: 20px 0px;
+
+}
+
+.redes-sociales-iconos ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.redes-sociales-iconos ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: gray;
+}
+
+.redes-sociales-iconos ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+}
+
+.redes-sociales-iconos ul li a i {
+    line-height: 50px;
+}
+
+.container {
+    min-height: 100vh;
+}
+.logogral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.img1{
+  width: 300px;
+  height: 350px;
+  margin: 30px;
+}
+.pie2{
+    
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #FFD1C8;
+    color: white;
+}
+.pie1{
+    
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #FFD1C8;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .menu {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+         "inicio sobremi"
+         "contacto destinos";
+
+    }
+
+    .menu li {
+        display: inline;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin: 50px;
+        width: 140px;
+        
+    }
+    .inicio {
+        grid-area: inicio;
+    }
+    .sobremi {
+        grid-area: sobremi;
+    }
+    .contacto {
+        grid-area: contacto;
+    }
+    .destinos{
+        grid-area: destinos;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        height: 300px;
+    }
+
+
+    .logogral {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+

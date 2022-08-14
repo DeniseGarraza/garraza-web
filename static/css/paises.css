@@ -1,0 +1,55 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+.paish2{
+    color: #FFD1C8;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.sub{
+    background-color: #FFD1C8;
+    color: #15CDCB;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .menu {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+         "inicio sobremi"
+         "contacto destinos";
+
+    }
+
+    .menu li {
+        display: inline;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin: 50px;
+        width: 140px;
+        
+    }
+    .inicio {
+        grid-area: inicio;
+    }
+    .sobremi {
+        grid-area: sobremi;
+    }
+    .contacto {
+        grid-area: contacto;
+    }
+    .destinos{
+        grid-area: destinos;
+    }
+}
