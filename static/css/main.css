@@ -1,7 +1,7 @@
 *{margin: 0%; padding: 0%; box-sizing: border-box;}
 
 
-.menu {
+/* .menu {
 
     width: 50vw;
     height: 50vh;
@@ -17,10 +17,10 @@
      "contacto destinos";
 
 
-}
+} */
 
 
-.menu li {
+/* .menu li {
     display: inline;
     background-color: rgb(255, 255, 255);
     border-radius: 20%;
@@ -31,8 +31,8 @@
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
     
-}
-.menu li:hover{
+} */
+/* .menu li:hover{
     transition: all .4s;
 }
 .menu li a {
@@ -41,11 +41,11 @@
     font-size: 15px;
     
   
-}
+} */
 
 
 
-.inicio {
+/* .inicio {
     grid-area: inicio;
     -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
     
@@ -72,22 +72,26 @@
     grid-area: destinos;
     -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
     
+     */
+/* } */
+
+
+
+.bienvenidos {
+    background-image: url(../images/palmera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+   
+}
+.btn-primary{
+    background-color: #FFD1C8;
+    border: 0;
     
 }
 
 
-
-.banner {
-    background-image: url(../images/palmera.jpeg);
-    background-repeat: no-repeat;
-    height: 600px;
-    background-size: cover;
-    flex-direction: row;
-    -webkit-animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both;animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both
-}
-
-
- @-webkit-keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}@keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
 
 
 
@@ -109,11 +113,7 @@ div.galeria:hover {
     transform: rotate(-3deg);
 }
 
-div.pie {
-    text-align: center;
-    text-shadow: 2px 2px 5px #FFD1C8;
-    padding: 10px;
-}
+
 .margen{
     padding: 4px;
 }
@@ -221,7 +221,7 @@ div.pie {
 
 @media screen and (max-width: 480px) {
     
-    .menu {
+    /* .menu {
         padding: 0%;
         margin: 0%;
         width: 100%;
@@ -263,7 +263,7 @@ div.pie {
     }
     .banner{
         height: 300px;
-    }
+    } */
 
 
     .logogral {
