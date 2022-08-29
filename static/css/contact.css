@@ -1,6 +1,11 @@
-
+.bienvenidos {
+    background-image: url(../images/palmera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
 .form-contact {
-    background-color: #15CDCB;
+    background-color: #FFD1C8;
     margin: auto;
     max-width: 600px;
     padding: 4.5em 3em;

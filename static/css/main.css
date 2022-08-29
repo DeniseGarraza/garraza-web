@@ -19,7 +19,6 @@
 
 } */
 
-
 /* .menu li {
     display: inline;
     background-color: rgb(255, 255, 255);
@@ -32,6 +31,7 @@
 
     
 } */
+
 /* .menu li:hover{
     transition: all .4s;
 }
@@ -42,8 +42,6 @@
     
   
 } */
-
-
 
 /* .inicio {
     grid-area: inicio;
@@ -73,6 +71,7 @@
     -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
     
      */
+
 /* } */
 
 
@@ -82,18 +81,39 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    
-   
 }
-.btn-primary{
+.bg-light {
+    grid-area: inicio;
+    -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
+    
+    
+    
+}
+
+
+@-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+.boton-paises{
     background-color: #FFD1C8;
     border: 0;
-    
+    color: white;
 }
 
 
+.boton-paises:hover{
+    background-color:#FFD1C8 ;
+}
 
+.centrar{
+    display: block;
+    justify-content: center;
+}
 
+.img-paises{
+    align-content: center;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+}
 
 div.galeria {
     margin: 10px 20px;
@@ -173,9 +193,6 @@ div.galeria:hover {
     line-height: 50px;
 }
 
-.container {
-    min-height: 100vh;
-}
 .logogral {
     display: flex;
     justify-content: center;
@@ -192,12 +209,10 @@ div.galeria:hover {
 }
 
 
-.img1:hover{
+.col:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .pie2{
-
-    
     text-align: center;
     padding: 10px;
     margin: 30px;
@@ -271,7 +286,6 @@ div.galeria:hover {
         flex-direction: column;
     }
 }
-
 
 
 
