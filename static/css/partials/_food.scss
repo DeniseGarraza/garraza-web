@@ -1,0 +1,119 @@
+.bienvenidos {
+    background-image: url(../images/palmera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+
+    .bg-light {
+        grid-area: inicio;
+        -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
+        
+    }
+    @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+
+}
+
+
+.food {
+    width: 80%;
+    height: 400px;
+    display: grid;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "pais0 pais0"
+    "pais1 pais2"
+    "pais3 pais4"
+    "pais5 pais6"
+    ;
+    gap: 4px;
+    color: #15CDCB;
+    
+    .country {
+   
+        border: 1px solid gray;
+
+    }
+
+    .pais0 {
+        grid-area: pais0;
+        background-color: #FFD1C8;
+        color: white;
+        font-family: 'Mochiy Pop One', sans-serif;
+        font-size: large;
+        
+    }
+    .pais1 {
+        grid-area: pais1;
+        background-color: white;
+    }.pais2 {
+        grid-area: pais2;
+        background-color: white;
+    }.pais3 {
+        grid-area: pais3;
+        background-color: white;
+    }
+    .pais4 {
+        grid-area: pais4;
+        background-color: white;
+    }.pais5 {
+        grid-area: pais5;
+        background-color: white;
+    }.pais6 {
+        grid-area: pais6;
+        background-color: white;
+    }
+
+    .food > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.redes-sociales-footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background:  $maincolor;
+    padding: 20px 0px;
+
+}
+.seguinos{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+ 
+}
+.redes-sociales-iconos ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+    .redes-sociales-iconos ul li {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+        border-radius: 100%;
+        background: gray;
+
+        .redes-sociales-iconos ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            display: block;
+            
+            .redes-sociales-iconos ul li a i {
+                line-height: 50px;
+            }
+        }
+
+
+    }
+}

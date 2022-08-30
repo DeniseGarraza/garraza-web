@@ -1,0 +1,73 @@
+.bienvenidos {
+    background-image: url(../images/palmera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+
+    .bg-light {
+        grid-area: inicio;
+        -webkit-animation:roll-in-left .6s ease-out both;animation:roll-in-left .6s ease-out both
+        
+    }
+    @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+
+}
+.paish2{
+    color: #FFD1C8;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.sub{
+    background-color: #FFD1C8;
+    color: #15CDCB;
+    text-align: center;
+
+}
+
+.redes-sociales-footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background:  $maincolor;
+    padding: 20px 0px;
+
+}
+.seguinos{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+ 
+}
+.redes-sociales-iconos ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+    .redes-sociales-iconos ul li {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+        border-radius: 100%;
+        background: gray;
+
+        .redes-sociales-iconos ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            display: block;
+            
+            .redes-sociales-iconos ul li a i {
+                line-height: 50px;
+            }
+        }
+
+
+    }
+}
