@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* este es mi seccion comida  */
+/* .food {
+    width: 80%;
+    height: 400px;
+    display: grid;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "pais0 pais0"
+    "pais1 pais2"
+    "pais3 pais4"
+    "pais5 pais6"
+    ;
+    gap: 4px;
+    color: #15CDCB;
+    
+}
+
+
+.country {
+   
+    border: 1px solid gray;
+
+    
+}
+
+.pais0 {
+    grid-area: pais0;
+    background-color: #FFD1C8;
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: large;
+    
+}
+.pais1 {
+    grid-area: pais1;
+    background-color: white;
+}.pais2 {
+    grid-area: pais2;
+    background-color: white;
+}.pais3 {
+    grid-area: pais3;
+    background-color: white;
+}
+.pais4 {
+    grid-area: pais4;
+    background-color: white;
+}.pais5 {
+    grid-area: pais5;
+    background-color: white;
+}.pais6 {
+    grid-area: pais6;
+    background-color: white;
+}
+
+.food > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .food {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+         "pais0"
+         "pais1"
+         "pais2"
+         "pais3"
+         "pais4"
+         "pais5"
+         "pais6";
+
+    }
+    .menu {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+         "inicio sobremi"
+         "contacto destinos";
+
+    }
+
+    .menu li {
+        display: inline;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin: 50px;
+        width: 140px;
+        
+    }
+    .inicio {
+        grid-area: inicio;
+    }
+    .sobremi {
+        grid-area: sobremi;
+    }
+    .contacto {
+        grid-area: contacto;
+    }
+    .destinos{
+        grid-area: destinos;
+    }
+    
+} */
+
+
+    
+    
