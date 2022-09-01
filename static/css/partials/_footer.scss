@@ -14,30 +14,32 @@
     color: white;
  
 }
-.redes-sociales-iconos ul {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
 
-    .redes-sociales-iconos ul li {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        margin: 0px 10px;
-        border-radius: 100%;
-        background: gray;
 
-        .redes-sociales-iconos ul li a {
-            text-decoration: none;
-            color: white;
-            font-size: 25px;
-            display: block;
-            
-            .redes-sociales-iconos ul li a i {
-                line-height: 50px;
+
+
+.redes-sociales-iconos  {
+    ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        li{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 0px 10px;
+            border-radius: 100%;
+            background: gray;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 25px;
+                display: block;
+                i{
+                    line-height: 50px;
+                }
             }
         }
-
-
     }
+    
 }
